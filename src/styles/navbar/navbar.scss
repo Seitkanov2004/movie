@@ -1,0 +1,45 @@
+#navbar{
+  .navbar{
+    background: white;
+    position: fixed;
+    z-index: 999;
+    top: 100px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    width: 18%;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    &--nav{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      a{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 20px;
+        color: #000000;
+        padding: 10px;
+        transition: .4s;
+        &:hover,
+        &:focus{
+          color: white;
+          background: #4777F5;
+          border-radius: 5px;
+          width: 120px;
+          height: 40px;
+          margin: 10px;
+        }
+      }
+    }
+    &--btn{
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 20px;
+      padding: 10px 16px;
+      margin: 10px;
+      border-radius: 8px;
+
+    }
+  }
+}

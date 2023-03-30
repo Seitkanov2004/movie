@@ -1,0 +1,50 @@
+.movies--img {
+  background: white;
+  margin: 20px 6px;
+  overflow: hidden;
+  border-radius: 14px;
+  width: 257px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0 10px 20px #4777F5;
+
+  h4{
+    color: black;
+    font-size: 16px;
+  }
+
+  &__runs {
+    position: absolute;
+    left: 0;
+    top: 300px;
+    background: #4777F5;
+    border-radius: 0 6px 6px 0;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    h5{
+      padding: 4px;
+      margin: 0;
+    }
+  }
+
+  img {
+    width: 257px;
+    border-radius: 14px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    color: #000000;
+    padding: 10px 0;
+    width: 86%;
+    text-align: center;
+    border-bottom: grey dashed 2px;
+  }
+}

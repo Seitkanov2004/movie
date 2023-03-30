@@ -1,0 +1,109 @@
+#header{
+  background: #FFFFFF;
+  border: 1px solid #EEEEEE;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    &--btn{
+      font-size: 16px;
+      color: white;
+      background: grey;
+      padding: 6px 20px;
+      border-radius: 5px;
+    }
+    &--logo{
+      color: dodgerblue;
+      font-size: 24px;
+    }
+    &--navbar{
+      a{
+        color: #e0e0e0;
+        margin: 0 10px;
+      }
+    }
+    .language{
+      button{
+        padding: 4px 6px;
+        border-radius: 4px;
+        transition: .4s;
+        &:hover,
+        &:focus{
+          background: #4777F5;
+          transition: .4s;
+          transform: scale(1.1);
+          color: white;
+        }
+      }
+    }
+
+
+    &--search{
+      height: 40px;
+      width: 400px;
+      position: relative;
+      input{
+        border-radius: 10px;
+        border: #dadada 2px solid;
+        background: rgba(255, 255, 255, 0.18);
+        padding-left: 10px;
+        font-size: 18px;
+        color: black;
+        outline: none;
+        width: 100%;
+        height: 100%;
+        padding-right: 8px;
+      }
+      button{
+        border:none;
+        color: dodgerblue;
+        font-size: 16px;
+        background: transparent;
+        position: absolute;
+        right: 30px;
+        top: 3px;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

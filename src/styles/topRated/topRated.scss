@@ -1,0 +1,15 @@
+#topRated{
+  .dadTopRated{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+
+  }
+  .topRated{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 260px;
+  }
+}

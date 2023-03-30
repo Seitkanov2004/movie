@@ -1,0 +1,165 @@
+@import "header/header";
+@import "popular/popular";
+@import "topRated/topRated";
+@import "detailPage/detailPage";
+@import "navbar/navbar";
+@import "home/home";
+@import "movieCard/movieCard";
+
+
+
+
+body{
+  font-family: 'Arial',sans-serif;
+  background: black;
+  color: white;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 85%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.slick-slider{
+  display: flex;
+  align-items: center;
+}
+
+.slick-list{
+  overflow: hidden;
+  width: 100%;
+}
+.slick-track{
+  display: flex;
+}
+
+
+.movie-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.movie {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 30px;
+  //color: white;
+}
+
+.movie img {
+  width: 100%;
+}
+
+.home{
+  padding: 120px 0;
+}
+
+.topRated{
+  padding-top: 120px;
+}
+.movies{
+  padding-top: 120px;
+}
+.videoBlock{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+.next-btn{
+  font-size: 16px;
+  color: white;
+  border-radius: 6px;
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  cursor: pointer;
+}
+
+.next-text{
+  padding: 0 10px;
+  font-size: 20px;
+}
+
+.nextDad{
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+.actor--block{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 100px 0;
+  img{
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px 2px black;
+    transition: .4s;
+    &:hover{
+      box-shadow: 10px 10px 20px 2px yellow;
+      transform: scale(1.1);
+    }
+  }
+  &__title{
+    width: 60%;
+    h1{
+      padding-bottom: 20px;
+    }
+    p{
+      span{
+        cursor: pointer;
+      }
+    }
+  }
+}
+button{
+  border:none;
+  margin: 4px;
+}
+
+.searchMovie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 240px;
+}
+
+
+.block--red{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px;
+  width: 30%;
+  div{
+    background: greenyellow;
+    border-radius: 5px;
+    padding: 10px 14px;
+    color: black;
+  }
+}
+
+
+
+.slick-arrow{
+  font-size: 30px;
+  color: yellow;
+  cursor:pointer;
+}
